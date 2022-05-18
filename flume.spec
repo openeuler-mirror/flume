@@ -1,9 +1,9 @@
 Name:          flume
 Version:       1.9.0
-Release:       1
+Release:       2
 Summary:       Apache Flume is a distributed, reliable, and availble service for efficiently collecting, aggregating, and moving large amounts of log data.
 
-License:       Apache 2.0
+License:       Public Domain and MIT and Apache-2.0
 URL:           https://github.com/apache/flume
 
 Source0:       https://github.com/apache/%{name}/archive/refs/tags/release-%{version}-rc3.tar.gz
@@ -95,5 +95,8 @@ popd
 %dir %{_javadir}/%{name}
 
 %changelog
+* Wed May 18 2022 liukuo <liukuo@kylinos.cn> - 1.9.0-2
+- License compliance rectification
+
 * Tue Apr 13 2021 Ge Wang <wangge20@huawei.com> 1.9.0-1
 - Init package
