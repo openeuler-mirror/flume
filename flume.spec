@@ -95,7 +95,7 @@ popd
 %dir %{_javadir}/%{name}
 
 %changelog
-* Wed Aug 3 2022 xiexing <xiexing4@hisilicon.com> - 1.10.1-1
+* Wed Aug 3 2022 xiexing <xiexing4@hisilicon.com> - 1.10.0-1
 - fix cve problem
 
 * Wed May 18 2022 liukuo <liukuo@kylinos.cn> - 1.9.0-2
