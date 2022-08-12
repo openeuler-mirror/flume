@@ -4,8 +4,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-legacy-sources</groupId>
       <artifactId>flume-avro-source</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-legacy-sources/flume-avro-source/target/flume-avro-source-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-legacy-sources/flume-avro-source/target/flume-avro-source-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -15,7 +15,7 @@
       <groupId>org.apache.flume.flume-ng-legacy-sources</groupId>
       <artifactId>flume-avro-source</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-legacy-sources/flume-avro-source/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -23,11 +23,11 @@
       </properties>
     </artifact>
 
-    <artifact>
+    <!--artifact>
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-dataset-sink</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sinks/flume-dataset-sink/target/flume-dataset-sink-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sinks/flume-dataset-sink/target/flume-dataset-sink-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -37,19 +37,19 @@
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-dataset-sink</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sinks/flume-dataset-sink/pom.xml</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
       </properties>
-    </artifact>
+    </artifact-->
 
     <artifact>
       <groupId>org.apache.flume.flume-ng-channels</groupId>
       <artifactId>flume-file-channel</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-channels/flume-file-channel/target/flume-file-channel-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-channels/flume-file-channel/target/flume-file-channel-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -59,7 +59,7 @@
       <groupId>org.apache.flume.flume-ng-channels</groupId>
       <artifactId>flume-file-channel</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-channels/flume-file-channel/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -70,8 +70,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-hdfs-sink</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sinks/flume-hdfs-sink/target/flume-hdfs-sink-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sinks/flume-hdfs-sink/target/flume-hdfs-sink-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -81,7 +81,7 @@
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-hdfs-sink</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sinks/flume-hdfs-sink/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -92,8 +92,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-hive-sink</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sinks/flume-hive-sink/target/flume-hive-sink-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sinks/flume-hive-sink/target/flume-hive-sink-1.10.0.jar</path>
       <properties>
 	<type>jar</type>
 	<requiresJava>1.6</requiresJava>
@@ -103,7 +103,7 @@
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-hive-sink</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sinks/flume-hive-sink/pom.xml</path>
       <properties>
 	<type>jar</type>
@@ -114,8 +114,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-http-sink</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sinks/flume-http-sink/target/flume-http-sink-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sinks/flume-http-sink/target/flume-http-sink-1.10.0.jar</path>
       <properties>
 	<type>jar</type>
 	<requiresJava>1.6</requiresJava>
@@ -125,7 +125,7 @@
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-http-sink</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sinks/flume-http-sink/pom.xml</path>
       <properties>
  	<type>jar</type>
@@ -136,8 +136,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-irc-sink</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sinks/flume-irc-sink/target/flume-irc-sink-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sinks/flume-irc-sink/target/flume-irc-sink-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -147,7 +147,7 @@
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-irc-sink</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sinks/flume-irc-sink/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -158,8 +158,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-channels</groupId>
       <artifactId>flume-jdbc-channel</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-channels/flume-jdbc-channel/target/flume-jdbc-channel-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-channels/flume-jdbc-channel/target/flume-jdbc-channel-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -169,7 +169,7 @@
       <groupId>org.apache.flume.flume-ng-channels</groupId>
       <artifactId>flume-jdbc-channel</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-channels/flume-jdbc-channel/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -180,8 +180,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sources</groupId>
       <artifactId>flume-jms-source</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sources/flume-jms-source/target/flume-jms-source-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sources/flume-jms-source/target/flume-jms-source-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -191,7 +191,7 @@
       <groupId>org.apache.flume.flume-ng-sources</groupId>
       <artifactId>flume-jms-source</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sources/flume-jms-source/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -202,8 +202,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-channels</groupId>
       <artifactId>flume-kafka-channel</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-channels/flume-kafka-channel/target/flume-kafka-channel-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-channels/flume-kafka-channel/target/flume-kafka-channel-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -213,7 +213,7 @@
       <groupId>org.apache.flume.flume-ng-channels</groupId>
       <artifactId>flume-kafka-channel</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-channels/flume-kafka-channel/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -224,8 +224,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sources</groupId>
       <artifactId>flume-kafka-source</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sources/flume-kafka-source/target/flume-kafka-source-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sources/flume-kafka-source/target/flume-kafka-source-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -235,7 +235,7 @@
       <groupId>org.apache.flume.flume-ng-sources</groupId>
       <artifactId>flume-kafka-source</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sources/flume-kafka-source/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -246,8 +246,8 @@
     <artifact>
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-auth</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-auth/target/flume-ng-auth-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-auth/target/flume-ng-auth-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -257,7 +257,7 @@
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-auth</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-auth/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -268,8 +268,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-configfilters</groupId>
       <artifactId>flume-ng-config-filter-api</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-configfilters/flume-ng-config-filter-api/target/flume-ng-config-filter-api-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-configfilters/flume-ng-config-filter-api/target/flume-ng-config-filter-api-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -279,7 +279,7 @@
       <groupId>org.apache.flume.flume-ng-configfilters</groupId>
       <artifactId>flume-ng-config-filter-api</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-configfilters/flume-ng-config-filter-api/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -290,8 +290,8 @@
     <artifact>
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-configuration</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-configuration/target/flume-ng-configuration-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-configuration/target/flume-ng-configuration-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -301,7 +301,7 @@
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-configuration</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-configuration/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -312,8 +312,8 @@
     <artifact>
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-core</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-core/target/flume-ng-core-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-core/target/flume-ng-core-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -323,7 +323,7 @@
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-core</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-core/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -331,11 +331,11 @@
       </properties>
     </artifact>
 
-    <artifact>
+    <!--artifact>
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-ng-elasticsearch-sink</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sinks/flume-ng-elasticsearch-sink/target/flume-ng-elasticsearch-sink-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sinks/flume-ng-elasticsearch-sink/target/flume-ng-elasticsearch-sink-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -345,19 +345,19 @@
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-ng-elasticsearch-sink</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sinks/flume-ng-elasticsearch-sink/pom.xml</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
       </properties>
-    </artifact>
+    </artifact-->
 
     <artifact>
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-embedded-agent</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-embedded-agent/target/flume-ng-embedded-agent-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-embedded-agent/target/flume-ng-embedded-agent-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -367,7 +367,7 @@
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-embedded-agent</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-embedded-agent/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -378,8 +378,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-configfilters</groupId>
       <artifactId>flume-ng-environment-variable-config-filter</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-configfilters/flume-ng-environment-variable-config-filter/target/flume-ng-environment-variable-config-filter-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-configfilters/flume-ng-environment-variable-config-filter/target/flume-ng-environment-variable-config-filter-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -389,7 +389,7 @@
       <groupId>org.apache.flume.flume-ng-configfilters</groupId>
       <artifactId>flume-ng-environment-variable-config-filter</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-configfilters/flume-ng-environment-variable-config-filter/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -400,8 +400,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-configfilters</groupId>
       <artifactId>flume-ng-external-process-config-filter</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-configfilters/flume-ng-external-process-config-filter/target/flume-ng-external-process-config-filter-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-configfilters/flume-ng-external-process-config-filter/target/flume-ng-external-process-config-filter-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -411,7 +411,7 @@
       <groupId>org.apache.flume.flume-ng-configfilters</groupId>
       <artifactId>flume-ng-external-process-config-filter</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-configfilters/flume-ng-external-process-config-filter/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -422,8 +422,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-configfilters</groupId>
       <artifactId>flume-ng-hadoop-credential-store-config-filter</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-configfilters/flume-ng-hadoop-credential-store-config-filter/target/flume-ng-hadoop-credential-store-config-filter-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-configfilters/flume-ng-hadoop-credential-store-config-filter/target/flume-ng-hadoop-credential-store-config-filter-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -433,7 +433,7 @@
       <groupId>org.apache.flume.flume-ng-configfilters</groupId>
       <artifactId>flume-ng-hadoop-credential-store-config-filter</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-configfilters/flume-ng-hadoop-credential-store-config-filter/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -444,8 +444,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-ng-hbase2-sink</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sinks/flume-ng-hbase2-sink/target/flume-ng-hbase2-sink-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sinks/flume-ng-hbase2-sink/target/flume-ng-hbase2-sink-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -455,7 +455,7 @@
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-ng-hbase2-sink</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sinks/flume-ng-hbase2-sink/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -466,8 +466,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-ng-hbase-sink</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sinks/flume-ng-hbase-sink/target/flume-ng-hbase-sink-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sinks/flume-ng-hbase-sink/target/flume-ng-hbase-sink-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -477,7 +477,7 @@
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-ng-hbase-sink</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sinks/flume-ng-hbase-sink/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -488,8 +488,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-ng-kafka-sink</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sinks/flume-ng-kafka-sink/target/flume-ng-kafka-sink-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sinks/flume-ng-kafka-sink/target/flume-ng-kafka-sink-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -499,7 +499,7 @@
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-ng-kafka-sink</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sinks/flume-ng-kafka-sink/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -510,8 +510,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-clients</groupId>
       <artifactId>flume-ng-log4jappender</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-clients/flume-ng-log4jappender/target/flume-ng-log4jappender-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-clients/flume-ng-log4jappender/target/flume-ng-log4jappender-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -521,7 +521,7 @@
       <groupId>org.apache.flume.flume-ng-clients</groupId>
       <artifactId>flume-ng-log4jappender</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-clients/flume-ng-log4jappender/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -532,8 +532,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-ng-morphline-solr-sink</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sinks/flume-ng-morphline-solr-sink/target/flume-ng-morphline-solr-sink-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sinks/flume-ng-morphline-solr-sink/target/flume-ng-morphline-solr-sink-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -543,7 +543,7 @@
       <groupId>org.apache.flume.flume-ng-sinks</groupId>
       <artifactId>flume-ng-morphline-solr-sink</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sinks/flume-ng-morphline-solr-sink/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -554,8 +554,8 @@
     <artifact>
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-node</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-node/target/flume-ng-node-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-node/target/flume-ng-node-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -565,7 +565,7 @@
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-node</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-node/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -576,8 +576,8 @@
     <artifact>
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-sdk</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sdk/target/flume-ng-sdk-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sdk/target/flume-ng-sdk-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -587,7 +587,7 @@
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-sdk</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sdk/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -598,8 +598,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sources</groupId>
       <artifactId>flume-scribe-source</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sources/flume-scribe-source/target/flume-scribe-source-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sources/flume-scribe-source/target/flume-scribe-source-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -609,7 +609,7 @@
       <groupId>org.apache.flume.flume-ng-sources</groupId>
       <artifactId>flume-scribe-source</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sources/flume-scribe-source/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -620,8 +620,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-shared</groupId>
       <artifactId>flume-shared-kafka</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-shared/flume-shared-kafka/target/flume-shared-kafka-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-shared/flume-shared-kafka/target/flume-shared-kafka-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -631,7 +631,7 @@
       <groupId>org.apache.flume.flume-shared</groupId>
       <artifactId>flume-shared-kafka</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-shared/flume-shared-kafka/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -642,8 +642,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-channels</groupId>
       <artifactId>flume-spillable-memory-channel</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-channels/flume-spillable-memory-channel/target/flume-spillable-memory-channel-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-channels/flume-spillable-memory-channel/target/flume-spillable-memory-channel-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -653,7 +653,7 @@
       <groupId>org.apache.flume.flume-ng-channels</groupId>
       <artifactId>flume-spillable-memory-channel</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-channels/flume-spillable-memory-channel/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -664,8 +664,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sources</groupId>
       <artifactId>flume-taildir-source</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sources/flume-taildir-source/target/flume-taildir-source-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sources/flume-taildir-source/target/flume-taildir-source-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -675,7 +675,7 @@
       <groupId>org.apache.flume.flume-ng-sources</groupId>
       <artifactId>flume-taildir-source</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sources/flume-taildir-source/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -686,8 +686,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-legacy-sources</groupId>
       <artifactId>flume-thrift-source</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-legacy-sources/flume-thrift-source/target/flume-thrift-source-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-legacy-sources/flume-thrift-source/target/flume-thrift-source-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -697,7 +697,7 @@
       <groupId>org.apache.flume.flume-ng-legacy-sources</groupId>
       <artifactId>flume-thrift-source</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-legacy-sources/flume-thrift-source/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -708,8 +708,8 @@
     <artifact>
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-tools</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-tools/target/flume-tools-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-tools/target/flume-tools-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -719,7 +719,7 @@
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-tools</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-tools/pom.xml</path>
       <properties>
         <type>jar</type>
@@ -730,8 +730,8 @@
     <artifact>
       <groupId>org.apache.flume.flume-ng-sources</groupId>
       <artifactId>flume-twitter-source</artifactId>
-      <version>1.9.0</version>
-      <path>absolute-prefix/flume-ng-sources/flume-twitter-source/target/flume-twitter-source-1.9.0.jar</path>
+      <version>1.10.0</version>
+      <path>absolute-prefix/flume-ng-sources/flume-twitter-source/target/flume-twitter-source-1.10.0.jar</path>
       <properties>
         <type>jar</type>
         <requiresJava>1.6</requiresJava>
@@ -741,7 +741,7 @@
       <groupId>org.apache.flume.flume-ng-sources</groupId>
       <artifactId>flume-twitter-source</artifactId>
       <extension>pom</extension>
-      <version>1.9.0</version>
+      <version>1.10.0</version>
       <path>absolute-prefix/flume-ng-sources/flume-twitter-source/pom.xml</path>
       <properties>
         <type>jar</type>
