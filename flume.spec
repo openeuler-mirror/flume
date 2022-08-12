@@ -1,14 +1,14 @@
 Name:          flume
-Version:       1.9.0
+Version:       1.10.0
 Release:       1
 Summary:       Apache Flume is a distributed, reliable, and availble service for efficiently collecting, aggregating, and moving large amounts of log data.
 
-License:       Apache 2.0
+License:       Public Domain and MIT and Apache 2.0
 URL:           https://github.com/apache/flume
 
-Source0:       https://github.com/apache/%{name}/archive/refs/tags/release-%{version}-rc3.tar.gz
+Source0:       https://dlcdn.apache.org/flume/1.10.0/apache-flume-1.10.0-src.tar.gz
 Source1:       ua-parser-1.3.0.jar
-Source2:       pentaho-aggdesigner-algorithm-5.1.3-jhyde.jar
+Source2:       pentaho-aggdesigner-algorithm-5.1.5-jhyde.jar
 Source3:       xmvn-reactor
 Source4:       eigenbase-properties-1.1.4.jar
 Source5:       linq4j-0.4.jar
@@ -28,9 +28,9 @@ allows for intelligent dynamic management. It uses a simple extensible data mode
 for online analytic application.
 
 %prep
-%setup -q -n %{name}-release-%{version}-rc3
+%setup -q -n apache-flume-1.10.0-src
 mvn install:install-file -DgroupId=ua_parser -DartifactId=ua-parser -Dversion=1.3.0 -Dpackaging=jar -Dfile=%{SOURCE1}
-mvn install:install-file -DgroupId=org.pentaho -DartifactId=pentaho-aggdesigner-algorithm -Dversion=5.1.3-jhyde -Dpackaging=jar -Dfile=%{SOURCE2}
+mvn install:install-file -DgroupId=org.pentaho -DartifactId=pentaho-aggdesigner-algorithm -Dversion=5.1.5-jhyde -Dpackaging=jar -Dfile=%{SOURCE2}
 mvn install:install-file -DgroupId=eigenbase -DartifactId=eigenbase-properties -Dversion=1.1.4 -Dpackaging=jar -Dfile=%{SOURCE4}
 mvn install:install-file -DgroupId=net.hydromatic -DartifactId=linq4j -Dversion=0.4 -Dpackaging=jar -Dfile=%{SOURCE5}
 mvn install:install-file -DgroupId=net.hydromatic -DartifactId=quidem -Dversion=0.1.1 -Dpackaging=jar -Dfile=%{SOURCE6}
@@ -60,7 +60,7 @@ install -d -m 0755 %{buildroot}%{_datadir}/%{name}/lib
 install -d -m 0755 %{buildroot}%{_datadir}/%{name}/tools
 install -d -m 0755 %{buildroot}%{_datadir}/doc/%{name}
 
-pushd flume-ng-dist/target/apache-flume-1.9.0-bin/apache-flume-1.9.0-bin
+pushd flume-ng-dist/target/apache-flume-1.10.0-bin/apache-flume-1.10.0-bin
   cp -arf bin/* %{buildroot}%{_datadir}/%{name}/bin
   cp -arf conf/* %{buildroot}%{_datadir}/%{name}/conf
   cp -arf lib/* %{buildroot}%{_datadir}/%{name}/lib
@@ -71,14 +71,14 @@ pushd flume-ng-dist/target/apache-flume-1.9.0-bin/apache-flume-1.9.0-bin
 popd
 
 # /usr/bin
-pushd flume-ng-dist/target/apache-flume-1.9.0-bin/apache-flume-1.9.0-bin/bin
+pushd flume-ng-dist/target/apache-flume-1.10.0-bin/apache-flume-1.10.0-bin/bin
   ls | awk '{print $1}' | for line in `xargs`;do
     ln -s %{_datadir}/%{name}/bin/${line} %{buildroot}%{_bindir}/${line}
   done
 popd
 
 # /usr/share/flume/lib
-pushd flume-ng-dist/target/apache-flume-1.9.0-bin/apache-flume-1.9.0-bin/lib
+pushd flume-ng-dist/target/apache-flume-1.10.0-bin/apache-flume-1.10.0-bin/lib
   for f in `ls flume-* | grep -v tests | grep -v examples`
   do 
     pkgname=`echo $f | sed "s/-%{version}//"`
@@ -95,5 +95,11 @@ popd
 %dir %{_javadir}/%{name}
 
 %changelog
+* Wed Aug 3 2022 xiexing <xiexing4@hisilicon.com> - 1.10.1-1
+- fix cve problem
+
+* Wed May 18 2022 liukuo <liukuo@kylinos.cn> - 1.9.0-2
+- License compliance rectification
+
 * Tue Apr 13 2021 Ge Wang <wangge20@huawei.com> 1.9.0-1
 - Init package
