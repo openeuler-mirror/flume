@@ -1,6 +1,6 @@
 Name:          flume
 Version:       1.10.0
-Release:       1
+Release:       2
 Summary:       Apache Flume is a distributed, reliable, and availble service for efficiently collecting, aggregating, and moving large amounts of log data.
 
 License:       Public Domain and MIT and Apache 2.0
@@ -13,6 +13,8 @@ Source3:       xmvn-reactor
 Source4:       eigenbase-properties-1.1.4.jar
 Source5:       linq4j-0.4.jar
 Source6:       quidem-0.1.1.jar
+
+Patch6000:     backport-CVE-2022-34916.patch
 
 BuildRequires: java-1.8.0-openjdk-devel maven xmvn xmvn-install gradle-local maven-local 
 Requires: java-1.8.0-openjdk
@@ -28,7 +30,7 @@ allows for intelligent dynamic management. It uses a simple extensible data mode
 for online analytic application.
 
 %prep
-%setup -q -n apache-flume-1.10.0-src
+%autosetup -n apache-flume-1.10.0-src -p1
 mvn install:install-file -DgroupId=ua_parser -DartifactId=ua-parser -Dversion=1.3.0 -Dpackaging=jar -Dfile=%{SOURCE1}
 mvn install:install-file -DgroupId=org.pentaho -DartifactId=pentaho-aggdesigner-algorithm -Dversion=5.1.5-jhyde -Dpackaging=jar -Dfile=%{SOURCE2}
 mvn install:install-file -DgroupId=eigenbase -DartifactId=eigenbase-properties -Dversion=1.1.4 -Dpackaging=jar -Dfile=%{SOURCE4}
@@ -95,6 +97,12 @@ popd
 %dir %{_javadir}/%{name}
 
 %changelog
+* Mon Aug 22 2022 yinyongkang <yinyongkang@kylinos.cn> - 1.10.0-2
+- Type:CVE
+- ID:CVE-2022-34916
+- SUG:NA
+- DESC:Fix CVE-2022-34916
+
 * Wed Aug 3 2022 xiexing <xiexing4@hisilicon.com> - 1.10.0-1
 - fix cve problem
 
